@@ -22,8 +22,10 @@
     padding: 0;
 }
 
+
 body {
     font-family: var(--font-roboto);
+    background-color: var(--color-grisClaro);
 }
 
 /* HEADER */
@@ -35,6 +37,10 @@ header {
 
 }
 
+.flex-search{
+display:flex ;
+
+}
 .header-left {
     margin-left: 10px;
 }
@@ -46,11 +52,18 @@ header {
     margin-bottom: 10px;
 }
 
+button{
+    margin-left: 4px;
+}
+
 .info-tarjeta {
     margin: 12px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
+}
+.contenedor-menu{
+    display: none;
 }
 
 .contenedor-menu ul {
@@ -94,6 +107,65 @@ header {
 
 }
 
+/**********/
+
+/* Banner */
+
+.banner {
+    display: none;
+}
+
+/* Main */
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+h4{
+    font-size: var(--title); 
+    color: var(--color-grisOscuro)
+}
+
+/* Card */
+
+.card{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.card-content{
+    border-top: 1px solid var(--color-grisClaro);
+    padding: 15px;
+}
+
+.price{
+    font-size: var(--price);
+
+}
+.discounts{
+    font-size: var(--discounts);
+    color: var(--color-verde);
+}
+
+h6{
+    display: none;
+    margin-top: 5px;
+}
+
+.icon-truck{
+    border: 1px solid var(--color-verde);
+    border-radius: 50%;
+    padding: 10px;
+    width: fit-content; /* adapto la caja al contenido, en este caso la i */
+  
+
+}
+
+.icon-truck i{
+    color: var(--color-verde);
+}
+
 /* FOOTER */
 
 .footer {
@@ -101,6 +173,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    margin: 0 6px 6px;
 }
 
 .articulo-footer {
@@ -123,16 +197,48 @@ header {
 
 }
 
-.copyright{
+.copyright {
     width: 86%;
     font-size: 10px;
     margin: 24px 0 12px 0px;
-    
-  
+
+
 }
 
-.fa-credit-card, .fa-gift, .fa-credit-card {
+.fa-credit-card,
+.fa-gift,
+.fa-credit-card {
     margin-bottom: 10px;
     color: var(--color-celeste);
 }
+
+
+
+/* Media Queries */
+/* Tablet */
+@media screen and (min-width:361px){
+    .card{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    h6{
+        display: block;
+    }
+
+    .contenedor-menu{
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    
+    }
+}
+
+/* Desktop */
+@media screen and (min-width:769px){
+   
+}
+
+
 

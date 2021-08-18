@@ -1,0 +1,30 @@
+/* VARIABLES */
+:root {
+    /* COLORES */
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-grisOscuro: #666;
+    --color-grisClaro: #ebebeb;
+    --color-verde: #39b54a;
+    /*  FUENTES */
+    --font-roboto: 'Roboto', sans-serif;
+    /* TAMAÑOS */
+    --body-text: 12px;
+    --title: 24px;
+    --price: 18;
+    --discounts: 16px;
+    --descriptions: 16px;
+}
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: var(--font-roboto);
+    background-color: var(--color-grisClaro);
+}

@@ -1,0 +1,96 @@
+/* HEADER */
+
+header {
+    background-color: var(--color-amarillo);
+    font-size: var(--body-text);
+    padding-bottom: 10px;
+
+}
+
+.flex-search {
+    display: flex;
+
+}
+
+.header-left {
+    margin-left: 10px;
+}
+
+.logo {
+    width: 130px;
+    margin-left: 10px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 4px;
+}
+
+.info-tarjeta {
+    margin: 12px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-menu {
+    display: none;
+}
+
+.contenedor-menu ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.contenedor-menu ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.registro {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.carrito {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ml-1 {
+    margin-left: 5px;
+}
+
+.burger-menu {
+    width: 15px;
+    margin: 10px auto 5px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: var(--color-celeste);
+    color: white;
+
+}
+
+/* Media Queries */
+/* Tablet */
+@media screen and (min-width:361px) {
+    .contenedor-menu {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+
+    }
+}
+
+/* Desktop */
+@media screen and (min-width:769px) {}

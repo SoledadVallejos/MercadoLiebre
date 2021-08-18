@@ -1,0 +1,45 @@
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0 6px 6px;
+}
+
+.articulo-footer {
+    margin-top: 45px;
+    width: 76%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.articulo-footer h5 {
+    font-size: var(--discounts);
+}
+
+.articulo-footer p {
+    font-size: var(--body-text);
+
+}
+
+.copyright {
+    width: 86%;
+    font-size: 10px;
+    margin: 24px 0 12px 0px;
+
+
+}
+
+.fa-credit-card,
+.fa-gift,
+.fa-credit-card {
+    margin-bottom: 10px;
+    color: var(--color-celeste);
+}

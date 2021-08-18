@@ -13,7 +13,14 @@ main {
 
 h4{
     font-size: var(--title); 
-    color: var(--color-grisOscuro)
+    color: var(--color-grisOscuro);
+    
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* Card */
@@ -26,33 +33,47 @@ h4{
 .card-content{
     border-top: 1px solid var(--color-grisClaro);
     padding: 15px;
+    position: relative;
+}
+
+.price-dicounts{
+    display: flex;
 }
 
 .price{
     font-size: var(--price);
+    flex-grow: 0.3;
 
 }
 .discounts{
     font-size: var(--discounts);
     color: var(--color-verde);
+    flex-grow: 0.7;
 }
 
-h6{
+
+.descriptions{
     display: none;
-    margin-top: 5px;
+    margin-top: 17px;
+    color: var(--color-grisOscuro);
 }
 
 .icon-truck{
     border: 1px solid var(--color-verde);
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
+    width: -moz-fit-content;
     width: fit-content; /* adapto la caja al contenido, en este caso la i */
-  
-
+    background-color: #FFF;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
 .icon-truck i{
     color: var(--color-verde);
+    font-size: 16px;
 }
 
 
@@ -61,15 +82,20 @@ h6{
 @media screen and (min-width:361px){
     .card{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 49%;
     }
     
-    h6{
+    .descriptions{
         display: block;
     }
 }
 
 /* Desktop */
 @media screen and (min-width:769px){
+    .card{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 24%;
+    }
    
 }
 

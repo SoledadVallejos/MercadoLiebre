@@ -7,27 +7,33 @@ header {
 
 }
 
-.flex-search {
+.logo-search {
+    margin: 0 10px;
+    padding-top: 25px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
-.header-left {
-    margin-left: 10px;
-}
 
 .logo {
-    width: 130px;
+    width: 48%;
     margin-left: 10px;
-    padding-top: 30px;
     margin-bottom: 10px;
 }
 
-button {
-    margin-left: 4px;
+.search-bar {
+    width: 48%;
+}
+
+.search-bar input {
+    width: 80%;
 }
 
 .info-tarjeta {
+    width: 100%;
     margin: 12px 0px;
     display: flex;
     text-align: center;
@@ -36,16 +42,18 @@ button {
 
 .contenedor-menu {
     display: none;
+    margin: 0 10px;
 }
 
 .contenedor-menu ul {
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .contenedor-menu ul a {
     color: black;
     text-decoration: none;
+
 }
 
 .registro {
@@ -83,8 +91,44 @@ button {
 /* Tablet */
 @media screen and (min-width:361px) {
     .contenedor-menu {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+
     }
+
+    .logo {
+        width: 32%;
+    }
+
+    .search-bar {
+        width: 32%;
+    }
+
+    .info-tarjeta {
+        width: 32%;
+    }
+
+    .contenedor-menu ul {
+        display: flex;
+    }
+
+    .contenedor-left li {
+        margin-right: 15px;
+
+    }
+
+    .registro {
+        margin-right: 15px;
+    }
+
+    .login {
+        margin-right: 15px;
+    }
+
+    .carrito {
+        margin-right: 15px;
+    }
+
 
     .burger-menu {
         display: none;
@@ -93,4 +137,8 @@ button {
 }
 
 /* Desktop */
-@media screen and (min-width:769px) {}
+@media screen and (min-width:1024px) {
+    .contenedor-menu {
+        margin: 0 10px;
+    }
+}

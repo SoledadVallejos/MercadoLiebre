@@ -1,0 +1,73 @@
+/* Contenedor general */
+.register-login .contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.contenedor h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* contenedor input */
+.register-login .contenedor .container-input{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+
+}
+
+.ml-2{
+    margin: 0 20px;
+}
+
+.ml-3{
+    margin: 0 15px;
+}
+
+/* input */
+.register-login .contenedor .container-input input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input.text{
+    width: 100%;
+}
+
+/* botones */
+.conteiner-buttons button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.conteiner-buttons button:hover{
+    cursor: pointer;
+
+}
+
+.register-login .contenedor .conteiner-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.btn-rojo{
+    background-color: red;
+    color: white;
+}
+
+.btn-verde{
+    background-color: var(--color-verde);
+    color: white;
+}
+
+
+
+
+
+

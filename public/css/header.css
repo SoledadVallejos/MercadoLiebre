@@ -26,10 +26,19 @@ header {
 
 .search-bar {
     width: 48%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .search-bar input {
-    width: 80%;
+    width: 85%;
+    border: none;
+}
+
+.search-bar button{
+    background-color: white;
+    border: none;
 }
 
 
@@ -102,7 +111,7 @@ header {
     }
 
     .search-bar {
-        width: 32%;
+        width: 27%;
     }
 
     .info-tarjeta {

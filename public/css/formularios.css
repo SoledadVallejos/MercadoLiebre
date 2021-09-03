@@ -61,9 +61,14 @@ input.text{
     color: white;
 }
 
-.btn-verde{
-    background-color: var(--color-verde);
+.btn-celeste{
+    background-color: var(--color-celeste);
     color: white;
+    transition: background-color linear .3s;
+}
+
+.btn-celeste:hover{
+    background-color: #0022AA;
 }
 
 

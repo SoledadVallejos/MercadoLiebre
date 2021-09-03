@@ -39,6 +39,8 @@ header {
 .search-bar button{
     background-color: white;
     border: none;
+    position: relative;
+    bottom: -1px;
 }
 
 
@@ -148,6 +150,15 @@ header {
 
 /* Desktop */
 @media screen and (min-width:1024px) {
+    .search-bar {
+        width: 25%;
+    }
+
+    .search-bar input {
+        width: 90%;
+      
+    }
+
     .contenedor-menu {
         margin: 0 10px;
     }

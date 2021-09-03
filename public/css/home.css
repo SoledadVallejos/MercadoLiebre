@@ -28,7 +28,20 @@ section{
 .card{
     background-color: white;
     margin-bottom: 10px;
+    transition: all ease .3s;
+    
 }
+
+.card:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.card:hover .card-content .descriptions{
+    height: 20px;
+    margin-top: 10px;
+
+}
+
 
 .card-content{
     border-top: 1px solid var(--color-grisClaro);
@@ -53,9 +66,12 @@ section{
 
 
 .descriptions{
-    display: none;
+    height: 0;
+    transition: all ease .3s;
+    overflow: hidden;
     margin-top: 17px;
     color: var(--color-grisOscuro);
+    font-size: var(--descriptions);
 }
 
 .icon-truck{
@@ -69,11 +85,18 @@ section{
     position: absolute;
     right: 20px;
     top: -15px;
+   
 }
 
 .icon-truck i{
     color: var(--color-verde);
     font-size: 16px;
+    transition: all ease .3s;
+}
+
+.icon-truck:hover i{
+    box-shadow: 0 0 5px var(--color-verde);
+    transform: rotate(360deg);
 }
 
 
@@ -81,7 +104,6 @@ section{
 /* Tablet */
 @media screen and (min-width:361px){
     .card{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 49%;
     }
     
@@ -93,7 +115,6 @@ section{
 /* Desktop */
 @media screen and (min-width:769px){
     .card{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 24%;
     }
    

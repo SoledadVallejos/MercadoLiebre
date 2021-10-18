@@ -1,21 +1,31 @@
-# Mercado Liebre 2021 
-Práctica del curso de desarrollo web basado en un E-commerce de venta de distintos productos. El mismo cuenta con 3 vistas, home, login y register.
+
+<h1 align="center"> Mercado Liebre 2021 </h1>
+<p align="center"><img src="https://user-images.githubusercontent.com/84512521/137649754-64348374-944a-4ac9-92ed-1a4e0390ebf0.png" width=250px height=150px></img></p>
+
+
+## Tabla de contenidos:
+---
+
+- [Descripción y contexto](#descripción-y-contexto)
+- [Autor](#autor)
+
+
+
+## Descripción y contexto
+---
+La idea del proyecto fue desarrollar un E-commerce de venta de distintos productos. El sitio cuenta con 3 vistas; home, login y register.
 
 ## Instalación 🔧
+---
 
-1-Clonar el repo.
+-Instalar dependencias ```npm install```
 
-2-Ir a la carpeta generada ```cd MercadoLiebre```
+-Correr el ambiente local ```nodemon```
 
-3-Instalar dependencias ```npm install```
-
-3-Correr el ambiente local ```nodemon```
-
-
-## Construido con 🛠️
+Ejecuta la aplicación en modo de desarrollo.
+Abra http: // localhost: 3000 para verlo en el navegador.
 
 
-* [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
-
-
+## Autor
+---
+Soledad Vallejos.
